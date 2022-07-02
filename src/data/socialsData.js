@@ -1,6 +1,6 @@
 export const socialsData = {
   github: "https://github.com/Mshradha",
-  linkedIn: "www.linkedin.com/in/shradha-mishra-3b967914b",
+  linkedIn: "https://www.linkedin.com/in/shradha-mishra-3b967914b/",
   instagram: "https://www.instagram.com/06_shradha/",
   // codepen: "https://codepen.io/rcyou/pen/QEObEZ",
   twitter: "https://twitter.com/Shradha52031876",
