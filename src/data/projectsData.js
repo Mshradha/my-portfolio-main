@@ -8,6 +8,16 @@ import bankmanLanding_image from "../assets/svg/projects/Saphora.PNG";
 export const projectsData = [
   {
     id: 1,
+    projectName: "Mini E-commerce",
+    projectDesc:
+      "This is a mini clone of website myntra, I have tried to implement the website product page  with login and signup authoristaion",
+    tags: ["React","JavaScript", "CSS", "ChakraUI", "HTML"],
+    code: "https://github.com/Mshradha/ProjectUnit3-Bath-Body.git",
+    demo: "https://beamish-palmier-e5b41f.netlify.app/",
+    image: beauty_image,
+  },
+  {
+    id: 2,
     projectName: "Bath & Body Works",
     projectDesc:
       "This is a full-fledged clone of website Bath & Body Works, we have tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
@@ -17,7 +27,7 @@ export const projectsData = [
     image: beauty_image,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Tomtop",
     projectDesc:
       "It is a  functional html css model of website TomTop just with login functionality, I have implemented css with great precision and the website  responsive.",
@@ -27,7 +37,7 @@ export const projectsData = [
     image: adidas_image,
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Sephora ",
     projectDesc:
       "Shopping application landing page with login and create account options.It is  simple designed with Transitions,  Sliders and videos",
