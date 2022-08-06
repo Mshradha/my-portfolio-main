@@ -1,5 +1,6 @@
 import beauty_image from "../assets/svg/projects/Body.PNG";
-
+import mini from "../assets/svg/projects/mini.PNG"
+import beauty_image1 from "../assets/svg/projects/Capture.PNG"
 // import guess_image from "../assets/svg/projects/food.png";
 import adidas_image from "../assets/svg/projects/Tomtop.PNG";
 // import bankman_image from "../assets/svg/projects/be.png";
@@ -8,16 +9,26 @@ import bankmanLanding_image from "../assets/svg/projects/Saphora.PNG";
 export const projectsData = [
   {
     id: 1,
+    projectName: "Revv",
+    projectDesc:
+      "This is a mini clone of website Revv, I have tried to implement the website product page  with login and signup authoristaion",
+    tags: ["React","Redux","JavaScript", "CSS", "ChakraUI", "HTML"],
+    code: "https://github.com/Mshradha/assorted-bulb-9592",
+    demo: "https://assorted-bulb-9592.netlify.app/",
+    image: beauty_image1,
+  },
+  {
+    id: 2,
     projectName: "Mini E-commerce",
     projectDesc:
       "This is a mini clone of website myntra, I have tried to implement the website product page  with login and signup authoristaion",
     tags: ["React","JavaScript", "CSS", "ChakraUI", "HTML"],
-    code: "https://github.com/Mshradha/ProjectUnit3-Bath-Body.git",
-    demo: "https://beamish-palmier-e5b41f.netlify.app/",
-    image: beauty_image,
+    code: "https://github.com/masai-course/shradha_fw16_237/tree/master/ProjectReact/ecommerce",
+    demo: "https://shradhaecomm.vercel.app/",
+    image: mini,
   },
   {
-    id: 2,
+    id: 3,
     projectName: "Bath & Body Works",
     projectDesc:
       "This is a full-fledged clone of website Bath & Body Works, we have tried to implement every possible feature of the website and provided the full payment cycle with login and signup authoristaion",
@@ -27,7 +38,7 @@ export const projectsData = [
     image: beauty_image,
   },
   {
-    id: 3,
+    id: 4,
     projectName: "Tomtop",
     projectDesc:
       "It is a  functional html css model of website TomTop just with login functionality, I have implemented css with great precision and the website  responsive.",
@@ -37,7 +48,7 @@ export const projectsData = [
     image: adidas_image,
   },
   {
-    id: 4,
+    id: 5,
     projectName: "Sephora ",
     projectDesc:
       "Shopping application landing page with login and create account options.It is  simple designed with Transitions,  Sliders and videos",
