@@ -181,7 +181,7 @@ export const skillsImage = (skill) => {
       return graphql;
     case "lightroom":
       return lightroom;
-    case "materialui":
+    case "chakraui":
       return materialui;
     case "nginx":
       return nginx;

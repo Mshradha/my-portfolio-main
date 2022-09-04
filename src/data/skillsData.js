@@ -7,7 +7,7 @@ export const skillsData = [
   "Git",
   "Bootstrap",
   "ChakraUI",
-  " MatLab",
+  
   "Node",
   "Express",
   "MongoDB"
