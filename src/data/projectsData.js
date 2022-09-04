@@ -4,11 +4,22 @@ import beauty_image1 from "../assets/svg/projects/Capture.PNG"
 // import guess_image from "../assets/svg/projects/food.png";
 import adidas_image from "../assets/svg/projects/Tomtop.PNG";
 // import bankman_image from "../assets/svg/projects/be.png";
+import beauty_image2 from "../assets/svg/projects/Hours.PNG"
 import bankmanLanding_image from "../assets/svg/projects/Saphora.PNG";
 // import expense_image from "../assets/svg/projects/weather.png";
 export const projectsData = [
   {
     id: 1,
+    projectName: "MyHours",
+    projectDesc:
+      "This is a  clone of website myHours, I have tried to implement the website product page  with login and signup authoristaion",
+    tags: ["Node.js","Express","MongoDB","React","JavaScript", "CSS", "ChakraUI", "HTML"],
+    code: "https://github.com/Mshradha/bouncy-donkey-4696",
+    demo: "https://myhours.vercel.app/",
+    image: beauty_image2,
+  },
+  {
+    id: 2,
     projectName: "Revv",
     projectDesc:
       "This is a mini clone of website Revv, I have tried to implement the website product page  with login and signup authoristaion",
@@ -18,7 +29,7 @@ export const projectsData = [
     image: beauty_image1,
   },
   {
-    id: 2,
+    id: 6,
     projectName: "Mini E-commerce",
     projectDesc:
       "This is a mini clone of website myntra, I have tried to implement the website product page  with login and signup authoristaion",
