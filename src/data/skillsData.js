@@ -1,13 +1,16 @@
 export const skillsData = [
-  "C",
+ 
   "HTML",
   "CSS",
   "Javascript",
   "React",
   "Git",
   "Bootstrap",
-  "MaterialUI",
-  " Matlab"
+  "ChakraUI",
+  " MatLab",
+  "Node",
+  "Express",
+  "MongoDB"
   
 ];
 
