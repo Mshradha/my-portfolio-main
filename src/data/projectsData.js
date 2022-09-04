@@ -29,16 +29,6 @@ export const projectsData = [
     image: beauty_image1,
   },
   {
-    id: 6,
-    projectName: "Mini E-commerce",
-    projectDesc:
-      "This is a mini clone of website myntra, I have tried to implement the website product page  with login and signup authoristaion",
-    tags: ["React","JavaScript", "CSS", "ChakraUI", "HTML"],
-    code: "https://github.com/masai-course/shradha_fw16_237/tree/master/ProjectReact/ecommerce",
-    demo: "https://shradhaecomm.vercel.app/",
-    image: mini,
-  },
-  {
     id: 3,
     projectName: "Bath & Body Works",
     projectDesc:
@@ -48,6 +38,17 @@ export const projectsData = [
     demo: "https://beamish-palmier-e5b41f.netlify.app/",
     image: beauty_image,
   },
+  {
+    id: 6,
+    projectName: "Mini E-commerce",
+    projectDesc:
+      "This is a mini clone of website myntra, I have tried to implement the website product page  with login and signup authoristaion",
+    tags: ["React","JavaScript", "CSS", "ChakraUI", "HTML"],
+    code: "https://github.com/masai-course/shradha_fw16_237/tree/master/ProjectReact/ecommerce",
+    demo: "https://shradhaecomm.vercel.app/",
+    image: mini,
+  },
+ 
   {
     id: 4,
     projectName: "Tomtop",
