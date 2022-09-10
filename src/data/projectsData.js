@@ -56,7 +56,7 @@ export const projectsData = [
       "It is a  functional html css model of website TomTop just with login functionality, I have implemented css with great precision and the website  responsive.",
     tags: ["JavaScript", "CSS", "Bootstrap", "HTML"],
     code: "https://github.com/Mshradha/construct-week",
-    demo: "https://flourishing-cucurucho-16a578.netlify.app/",
+    demo: "https://tomtopclone.netlify.app/",
     image: adidas_image,
   },
   {
@@ -66,7 +66,7 @@ export const projectsData = [
       "Shopping application landing page with login and create account options.It is  simple designed with Transitions,  Sliders and videos",
     tags: ["HTML", "CSS", "JavaScript"],
     code: "https://github.com/Mshradha/sephora.git",
-    demo: "https://stupefied-bhabha-52c78b.netlify.app/",
+    demo: "https://sephoraclone17.netlify.app/",
     image: bankmanLanding_image,
   },
   // {
