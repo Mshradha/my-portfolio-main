@@ -95,7 +95,7 @@ export const skillsImage = (skill) => {
       return afterEffects;
     case "css":
       return css;
-    case "express":
+    case "express.js":
       return express;
     case "angular":
       return angular;
@@ -107,7 +107,7 @@ export const skillsImage = (skill) => {
       return nuxtJS;
     case "react":
       return react;
-    case "node":
+    case "node.js":
       return node;
     case "svelte":
       return svelte;
