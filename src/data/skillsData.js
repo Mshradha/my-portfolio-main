@@ -5,11 +5,11 @@ export const skillsData = [
   "Javascript",
   "React",
   "Git",
-  "Bootstrap",
+  
   "ChakraUI",
   
-  "Node",
-  "Express",
+  "Node.js",
+  "Express.js",
   "MongoDB"
   
 ];
