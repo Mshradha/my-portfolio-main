@@ -9,133 +9,268 @@ import {
 
 
 export const greenThemeLight = {
-    type: 'light',
-    primary: '#3fc337',
-    primary400: '#57d750',
-    primary600: '#29c51f',
-    primary80: '#3fc337cc',
-    primary50: '#3fc33780',
-    primary30: '#3fc3374d',
-    secondary: '#EAEAEA',
-    secondary70: '#EAEAEAb3',
-    secondary50: '#EAEAEA80',
-    tertiary: '#212121',
-    tertiary80: '#212121cc',
-    tertiary70: '#212121b3',
-    tertiary50: '#21212180',
-    aboutimg1: greenThemeboy,
-    aboutimg2: greenThemegirl,
-    eduimg: eduGreen,
-    expimg: expGreen,
-    contactsimg: contactsGreen
-}
+  type: "light",
+  primary: "#004953", // Your desired color
+  primary400: "#1a6a70", // Adjusted shade
+  primary600: "#00333b", // Adjusted shade
+  primary80: "#004953cc", // Adjusted alpha
+  primary50: "#00495380", // Adjusted alpha
+  primary30: "#0049534d", // Adjusted alpha
+  secondary: "#eaeaea",
+  secondary70: "#eaeaeab3",
+  secondary50: "#eaeaea80",
+  tertiary: "#212121",
+  tertiary80: "#212121cc",
+  tertiary70: "#212121b3",
+  tertiary50: "#21212180",
+  aboutimg1: greenThemeboy, // Replace with your image
+  aboutimg2: greenThemegirl, // Replace with your image
+  eduimg: eduGreen, // Replace with your image
+  expimg: expGreen, // Replace with your image
+  contactsimg: contactsGreen, // Replace with your image
+};
 
 export const greenThemeDark = {
-    type: 'dark',
-    primary: '#3fc337',
-    primary400: '#57d750',
-    primary600: '#29c51f',
-    primary80: '#3fc337cc',
-    primary50: '#3fc33780',
-    primary30: '#3fc3374d',
-    secondary: '#212121',
-    secondary70: '#212121b3',
-    secondary50: '#21212180',
-    tertiary: '#eaeaea',
-    tertiary80: '#eaeaeacc',
-    tertiary70: '#eaeaeab3',
-    tertiary50: '#eaeaea80',
-    aboutimg1: greenThemeboy,
-    aboutimg2: greenThemegirl,
-    eduimg: eduGreen,
-    expimg: expGreen,
-    contactsimg: contactsGreen
-}
+  type: "dark",
+  primary: "#004953", // Your desired color
+  primary400: "#1a6a70", // Adjusted shade
+  primary600: "#00333b", // Adjusted shade
+  primary80: "#004953cc", // Adjusted alpha
+  primary50: "#00495380", // Adjusted alpha
+  primary30: "#0049534d", // Adjusted alpha
+  secondary: "#212121",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: greenThemeboy, // Replace with your image
+  aboutimg2: greenThemegirl, // Replace with your image
+  eduimg: eduGreen, // Replace with your image
+  expimg: expGreen, // Replace with your image
+  contactsimg: contactsGreen, // Replace with your image
+};
+
 export const bwThemeLight = {
-    type: 'light',
-    primary: '#000000',
-    primary400: '#000000',
-    primary600: '#000000',
-    primary80: '#000000cc',
-    primary50: '#00000080',
-    primary30: '#0000004d',
-    secondary: '#EAEAEA',
-    secondary70: '#EAEAEAb3',
-    secondary50: '#EAEAEA80',
-    tertiary: '#212121',
-    tertiary80: '#212121cc',
-    tertiary70: '#212121b3',
-    tertiary50: '#21212180',
-    aboutimg1: bwThemeboy,
-    aboutimg2: bwThemegirl,
-    eduimg: eduBlack,
-    expimg: expBlack,
-    contactsimg: contactsBlack
-}
+  type: "light",
+  primary: "#000000",
+  primary400: "#000000",
+  primary600: "#000000",
+  primary80: "#000000cc",
+  primary50: "#00000080",
+  primary30: "#0000004d",
+  secondary: "#EAEAEA",
+  secondary70: "#EAEAEAb3",
+  secondary50: "#EAEAEA80",
+  tertiary: "#212121",
+  tertiary80: "#212121cc",
+  tertiary70: "#212121b3",
+  tertiary50: "#21212180",
+  aboutimg1: bwThemeboy,
+  aboutimg2: bwThemegirl,
+  eduimg: eduBlack,
+  expimg: expBlack,
+  contactsimg: contactsBlack,
+};
 export const bwThemeDark = {
-    type: 'dark',
-    primary: '#B6B6B6',
-    primary400: '#B6B6B6',
-    primary600: '#B6B6B6',
-    primary80: '#B6B6B6cc',
-    primary50: '#B6B6B680',
-    primary30: '#B6B6B64d',
-    secondary: '#212121',
-    secondary70: '#212121b3',
-    secondary50: '#21212180',
-    tertiary: '#eaeaea',
-    tertiary80: '#eaeaeacc',
-    tertiary70: '#eaeaeab3',
-    tertiary50: '#eaeaea80',
-    aboutimg1: bwThemeboy,
-    aboutimg2: bwThemegirl,
-    eduimg: eduBlack,
-    expimg: expBlack,
-    contactsimg: contactsBlack
-}
+  type: "dark",
+  primary: "#B6B6B6",
+  primary400: "#B6B6B6",
+  primary600: "#B6B6B6",
+  primary80: "#B6B6B6cc",
+  primary50: "#B6B6B680",
+  primary30: "#B6B6B64d",
+  secondary: "#212121",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: bwThemeboy,
+  aboutimg2: bwThemegirl,
+  eduimg: eduBlack,
+  expimg: expBlack,
+  contactsimg: contactsBlack,
+};
+
+export const customThemeLight = {
+  type: "light",
+  primary: "#120338",
+  primary400: "#371e5d",
+  primary600: "#100126",
+  primary80: "#120338cc",
+  primary50: "#12033880",
+  primary30: "#1203384d",
+  secondary: "#eaeaea",
+  secondary70: "#eaeaeab3",
+  secondary50: "#eaeaea80",
+  tertiary: "#212121",
+  tertiary80: "#212121cc",
+  tertiary70: "#212121b3",
+  tertiary50: "#21212180",
+  aboutimg1: bwThemeboy,
+  aboutimg2: bwThemegirl,
+  eduimg: eduBlack,
+  expimg: expBlack,
+  contactsimg: contactsBlack,
+};
+
+export const customThemeDark = {
+  type: "dark",
+  primary: "#120338",
+  primary400: "#371e5d",
+  primary600: "#100126",
+  primary80: "#120338cc",
+  primary50: "#12033880",
+  primary30: "#1203384d",
+  secondary: "#212121",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: bwThemeboy,
+  aboutimg2: bwThemegirl,
+  eduimg: eduBlack,
+  expimg: expBlack,
+  contactsimg: contactsBlack,
+};
 
 export const blueThemeLight = {
-    type: 'light',
-    primary: '#545fc4',
-    primary400: '#6e76c7',
-    primary600: '#3644c9',
-    primary80: '#545fc4cc',
-    primary50: '#545fc480',
-    primary30: '#545fc44d',
-    secondary: '#eaeaea',
-    secondary70: '#eaeaeab3',
-    secondary50: '#eaeaea80',
-    tertiary: '#212121',
-    tertiary80: '#212121cc',
-    tertiary70: '#212121b3',
-    tertiary50: '#21212180',
-    aboutimg1: blueThemeboy,
-    aboutimg2: blueThemegirl,
-    eduimg: eduBlue,
-    expimg: expBlue,
-    contactsimg: contactsBlue
-}
+  type: "light",
+  primary: "#545fc4",
+  primary400: "#6e76c7",
+  primary600: "#3644c9",
+  primary80: "#545fc4cc",
+  primary50: "#545fc480",
+  primary30: "#545fc44d",
+  secondary: "#eaeaea",
+  secondary70: "#eaeaeab3",
+  secondary50: "#eaeaea80",
+  tertiary: "#212121",
+  tertiary80: "#212121cc",
+  tertiary70: "#212121b3",
+  tertiary50: "#21212180",
+  aboutimg1: blueThemeboy,
+  aboutimg2: blueThemegirl,
+  eduimg: eduBlue,
+  expimg: expBlue,
+  contactsimg: contactsBlue,
+};
 export const blueThemeDark = {
-    type: 'dark',
-    primary: '#545fc4',
-    primary400: '#6e76c7',
-    primary600: '#3644c9',
-    primary80: '#545fc4cc',
-    primary50: '#545fc480',
-    primary30: '#545fc44d',
-    secondary: '#212121',
-    secondary70: '#212121b3',
-    secondary50: '#21212180',
-    tertiary: '#eaeaea',
-    tertiary80: '#eaeaeacc',
-    tertiary70: '#eaeaeab3',
-    tertiary50: '#eaeaea80',
-    aboutimg1: blueThemeboy,
-    aboutimg2: blueThemegirl,
-    eduimg: eduBlue,
-    expimg: expBlue,
-    contactsimg: contactsBlue
-}
+  type: "dark",
+  primary: "#545fc4",
+  primary400: "#6e76c7",
+  primary600: "#3644c9",
+  primary80: "#545fc4cc",
+  primary50: "#545fc480",
+  primary30: "#545fc44d",
+  secondary: "#212121",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: blueThemeboy,
+  aboutimg2: blueThemegirl,
+  eduimg: eduBlue,
+  expimg: expBlue,
+  contactsimg: contactsBlue,
+};
+
+export const navyBlueThemeLight = {
+  type: "light",
+  primary: "#001f3f",
+  primary400: "#003366",
+  primary600: "#00509e",
+  primary80: "#001f3fcc",
+  primary50: "#001f3f80",
+  primary30: "#001f3f4d",
+  secondary: "#8FB7D5", // Replace with pastel blue
+  secondary70: "#8FB7D5b3",
+  secondary50: "#8FB7D580",
+  tertiary: "#212121",
+  tertiary80: "#212121cc",
+  tertiary70: "#212121b3",
+  tertiary50: "#21212180",
+  aboutimg1: blueThemeboy,
+  aboutimg2: blueThemegirl,
+  eduimg: eduBlue,
+  expimg: expBlue,
+  contactsimg: contactsBlue,
+};
+
+export const navyBlueThemeDark = {
+  type: "dark",
+  primary: "#8FB7D5", // Pastel blue color
+  primary400: "#6C9BBF", // Adjusted shade
+  primary600: "#547DA3", // Adjusted shade
+  primary80: "#B3CBE2", // Adjusted shade
+  primary50: "#A1B9CF", // Adjusted shade
+  primary30: "#90A8BD", // Adjusted shade
+  secondary: "#02305F",
+  secondary70: "#02305Fb3",
+  secondary50: "#02305F80",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: blueThemeboy,
+  aboutimg2: blueThemegirl,
+  eduimg: eduBlue,
+  expimg: expBlue,
+  contactsimg: contactsBlue,
+};
+
+export const darkOliveThemeLight = {
+  type: "light",
+  primary: "#3d9970", // Dark Olive color
+  primary400: "#529e76",
+  primary600: "#2e7d5e",
+  primary80: "#3d9970cc",
+  primary50: "#3d997080",
+  primary30: "#3d99704d",
+  secondary: "#eaeaea",
+  secondary70: "#eaeaeab3",
+  secondary50: "#eaeaea80",
+  tertiary: "#212121",
+  tertiary80: "#212121cc",
+  tertiary70: "#212121b3",
+  tertiary50: "#21212180",
+  aboutimg1: blueThemeboy,
+  aboutimg2: blueThemegirl,
+  eduimg: eduBlue,
+  expimg: expBlue,
+  contactsimg: contactsBlue,
+};
+
+export const darkOliveThemeDark = {
+  type: "dark",
+  primary: "#3d9970", // Dark Olive color
+  primary400: "#529e76",
+  primary600: "#2e7d5e",
+  primary80: "#3d9970cc",
+  primary50: "#3d997080",
+  primary30: "#3d99704d",
+  secondary: "#212121",
+  secondary70: "#212121b3",
+  secondary50: "#21212180",
+  tertiary: "#eaeaea",
+  tertiary80: "#eaeaeacc",
+  tertiary70: "#eaeaeab3",
+  tertiary50: "#eaeaea80",
+  aboutimg1: blueThemeboy,
+  aboutimg2: blueThemegirl,
+  eduimg: eduBlue,
+  expimg: expBlue,
+  contactsimg: contactsBlue,
+};
+
+
 
 export const redThemeLight = {
     type: 'light',

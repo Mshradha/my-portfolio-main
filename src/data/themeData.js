@@ -16,12 +16,18 @@ import {
   pinkThemeDark,
   yellowThemeLight,
   yellowThemeDark,
+  navyBlueThemeDark,
+  navyBlueThemeLight,
+  darkOliveThemeDark,
+  darkOliveThemeLight,
+  customThemeDark,
+  customThemeLight,
 } from "../theme/theme";
 
 export const themeData = {
   // theme: bwThemeDark,
-  defaultTheme: redThemeLight,
-  secondaryTheme: redThemeDark,
+  defaultTheme: navyBlueThemeLight,
+  secondaryTheme: navyBlueThemeDark,
 };
 
 // Choose theme from above
